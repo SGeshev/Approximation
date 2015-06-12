@@ -1,0 +1,45 @@
+﻿Build started 12.6.2015 г. 16:05:32 ч..
+     1>Project "c:\Users\Wizs\documents\visual studio 2010\Projects\APPROX\APPROX\APPROX.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\wizs\documents\visual studio 2010\Projects\APPROX\Release\".
+       InitializeBuildStatus:
+         Creating "Release\APPROX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp msw.cpp
+         main.cpp
+         msw.cpp
+     1>msw.cpp(37): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>msw.cpp(56): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>msw.cpp(56): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>msw.cpp(57): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>msw.cpp(57): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>msw.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>msw.cpp(338): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>msw.cpp(117): warning C4101: 'rect' : unreferenced local variable
+     1>msw.cpp(114): warning C4101: 'hdcx' : unreferenced local variable
+     1>msw.cpp(694): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>msw.cpp(707): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>msw.cpp(729): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>msw.cpp(796): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\wizs\documents\visual studio 2010\Projects\APPROX\Release\APPROX.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\APPROX.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\wizs\documents\visual studio 2010\Projects\APPROX\Release\APPROX.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\wizs\documents\visual studio 2010\Projects\APPROX\Release\APPROX.lib" /MACHINE:X86 Release\main.obj
+         Release\msw.obj
+         Generating code
+         Finished generating code
+         APPROX.vcxproj -> c:\users\wizs\documents\visual studio 2010\Projects\APPROX\Release\APPROX.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\wizs\documents\visual studio 2010\Projects\APPROX\Release\APPROX.exe;#1" /manifest Release\APPROX.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\APPROX.unsuccessfulbuild".
+         Touching "Release\APPROX.lastbuildstate".
+     1>Done Building Project "c:\Users\Wizs\documents\visual studio 2010\Projects\APPROX\APPROX\APPROX.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.73
